@@ -3,7 +3,7 @@
 // DESCRIÇÃO: Algoritmo para cálculo de área de triângulo.
 // OBSERVAÇÃO: Este código é um pseudocódigo didático.
 // -------------------------------------------------------
-Algoritmo_calc_area_triangulo
+Algoritmo_area_triangulo
 Declare base,altura,area: Real;
 Escreva ("informe o valor da base do triangulo:");
 Leia(base);
