@@ -1,0 +1,22 @@
+algoritmo calc_numreais
+
+inicio
+
+	declare a, b, c, s, q, r: real;
+
+	escreva ("digite o valor do primeiro número")
+	leia (a)
+	escreva ("digite o valor do segundo número")
+	leia (b)
+	escreva ("digite o valor do terceiro número")
+	leia (c)
+	
+	s <- ( a + b + c )
+	q <- a^2
+	r <- raizQ (a * b * c)
+
+	Escreva ("o resultado da soma dos 3 números é: ", s,
+	"\no resultado do quadrado do primeiro número é: ", q,
+	"\no resultado da raiz quadrado do produto dos 3 números é: ", r)
+
+fimalgoritmo
