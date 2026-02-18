@@ -1,0 +1,10 @@
+PA_termo10
+//an=a1+(n-1)*r - fórmula utilizada
+Declare a1, n, r, an: inteiro
+escreva ("digite a razão da PA")
+leia (r) 
+escreva ("digite o valor do primeiro termo da PA:")
+Leia (a1)
+n <- 10
+an <- a1+(n-1)*r 
+Escreva ("O décimo termo da PA é:", an)
