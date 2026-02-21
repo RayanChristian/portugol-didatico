@@ -5,17 +5,17 @@
 
 Inicio
 
-	Declare a,b,x,y: inteiro
+	Declare a,b,x,y: inteiro;
 
-	Escreva ("digite o valor do 1º número: ")
-	leia (a)
-	Escreva ("digite o valor do 2º número: ")
-	leia (b)
+	Escreva ("digite o valor do 1º número: ");
+	leia (a);
+	Escreva ("digite o valor do 2º número: ");
+	leia (b);
 
-	x <- (a - b) ^ 2
-	y <- (a ^ 2) - (b ^ 2)
+	x <- (a - b) ^ 2;
+	y <- (a ^ 2) - (b ^ 2);
 
-	Escreva (" \no quadrado da diferença dos dois termos é: ", x,
-	"\no valor da diferença dos quadrados dos dois números é: ", y)
+	Escreva ("\nO quadrado da diferença dos dois termos é: ", x);
+	Escreva ("\nA diferença dos dois termos elevados ao quadrado é: ", y);
 
 Fimalgoritmo
